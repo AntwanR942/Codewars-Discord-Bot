@@ -58,18 +58,10 @@ end
 RegisterEmojiPagingBehvaiour("Authored", function(Context, Msg)
     local Suc, User = pcall(GetUserAuthoredKata, Context.Username)
 
-    print(Suc, "getting user authored")
-
     if Suc and User then
         local UserEmbed = ConstructAuthoredEmbed(User, Context.NextSubPage + 1)
 
         local Suc, Err = Msg:setEmbed(UserEmbed)
-
-        print(Suc, "constructing embed")
-
-        if not Suc and Err then
-            Log(1, Err)
-        end
 
         if Suc and not Err then
             Context.SubPage = Context.NextSubPage
