@@ -38,7 +38,7 @@ BOT = Discordia.Client {
 Discordia.extensions()
 
 --[[ Command Handler ]]
-CommandManager = require("./libs/CommandManager")
+CommandManager = require("CommandManager")
 
 --[[ Logger ]]
 Logger = Discordia.Logger((Config._DEBUG == false and 3 or 4), "%F @ %T")
