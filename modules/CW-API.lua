@@ -1,7 +1,4 @@
 --[[ Variables ]]
-local FileName = "CW-API.txt"
-local APIKey = assert(FileReader.readFileSync(Config.ModuleDir.."/"..FileName), F(Error["NoFile"], Config.ModuleDir, FileName))
-
 local BaseURL = "https://www.codewars.com/api/v1/"
 
 local Responses = {
@@ -19,7 +16,7 @@ local RateLimited = false
 local function CodewarsAPI(Route)
     assert(RateLimited == false, Responses[429])
 
-    local Res, Body = HTTP.request("GET", BaseURL..Route, { { "Authorization", APIKey } })
+    local Res, Body = HTTP.request("GET", BaseURL..Route)
 
     Res, Body = assert(JSON.decode(JSON.encode(Res)), Responses.Default), assert(JSON.decode(Body), Responses.Default)
 
