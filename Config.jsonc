@@ -1,0 +1,8 @@
+{
+    "EmbedColour": 12272428,
+    "Prefix": ">",
+    "ModuleDir": "./modules",
+    "CacheUpdate": 21600, /* If a record is older than 6 hours delete it from the cache, which resolves to 21600 seconds */
+    "_DEBUG": true,
+    "PrettyJSON": true
+}

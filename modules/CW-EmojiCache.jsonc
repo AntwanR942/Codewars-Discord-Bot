@@ -1,0 +1,321 @@
+{
+    /* Ranks */
+    "1 kyu": {
+        "url":"https://cdn.discordapp.com/attachments/806477250806415400/808058233851215873/1_kyu.png",
+        "EName": "1kyu",
+        "EID": "808300827919515659"
+    },
+    "2 kyu": {
+        "url":"https://cdn.discordapp.com/attachments/806477250806415400/808058235592245258/2_kyu.png",
+        "EName": "2kyu",
+        "EID": "808300828153610261"
+    },
+    "3 kyu": {
+        "url":"https://cdn.discordapp.com/attachments/806477250806415400/808058239554945074/3_kyu.png",
+        "EName": "3kyu",
+        "EID": "808300828028174437"
+    },
+    "4 kyu": {
+        "url":"https://cdn.discordapp.com/attachments/806477250806415400/808058243187212288/4_kyu.png",
+        "EName": "4kyu",
+        "EID": "808300828552855562"
+    },
+    "5 kyu": {
+        "url":"https://cdn.discordapp.com/attachments/806477250806415400/808058246971129907/5_kyu.png",
+        "EName": "5kyu",
+        "EID": "808300828292939807"
+    },
+    "6 kyu": {
+        "url":"https://cdn.discordapp.com/attachments/806477250806415400/808058252608405556/6_kyu.png",
+        "EName": "6kyu",
+        "EID": "808300828510650368"
+    },
+    "7 kyu": {
+        "url":"https://cdn.discordapp.com/attachments/806477250806415400/808058258173460500/7_kyu.png",
+        "EName": "7kyu",
+        "EID": "808300828644737054"
+    },
+    "8 kyu": {
+        "url":"https://cdn.discordapp.com/attachments/806477250806415400/808058260514275338/8_kyu.png",
+        "EName": "8kyu",
+        "EID": "808300828737667092"
+    },
+
+    /* All Valid Languages */
+    "elm": {
+        "LName": "Elm",
+        "EName": "elm",
+        "EID": "804799607963123812"
+    },
+    "nim": {
+        "LName": "Nim",
+        "EName": "nim",
+        "EID": "804799608613634049"
+    },
+    "solidity": {
+        "LName": "Solidity",
+        "EName": "solidity",
+        "EID": "804799609511477293"
+    },
+    "fortran": {
+        "LName": "Fortran",
+        "EName": "fortran",
+        "EID": "804799608101535784"
+    },
+    "java": {
+        "LName": "Java",
+        "EName": "java",
+        "EID": "804799608441405470"
+    },
+    "groovy": {
+        "LName": "Groovy",
+        "EName": "groovy",
+        "EID": "804799608207048764"
+    },
+    "dart": {
+        "LName": "Dart",
+        "EName": "dart_",
+        "EID": "804799608001790022"
+    },
+    "lua": {
+        "LName": "Lua",
+        "EName": "lua",
+        "EID": "804799608613896232"
+    },
+    "ocaml": {
+        "LName": "OCaml",
+        "EName": "ocaml",
+        "EID": "804799608873943040"
+    },
+    "go": {
+        "LName": "Go",
+        "EName": "go",
+        "EID": "804799608219107399"
+    },
+    "commonlisp": {
+        "LName": "CommonLisp",
+        "EName": "commonlisp",
+        "EID": "804799608361582634"
+    },
+    "haskell": {
+        "LName": "Haskell",
+        "EName": "haskell",
+        "EID": "804799608278089739"
+    },
+    "forth": {
+        "LName": "Forth",
+        "EName": "forth",
+        "EID": "804799608068374560"
+    },
+    "purescript": {
+        "LName": "PureScript",
+        "EName": "purescript",
+        "EID": "804799609154830406"
+    },
+    "php": {
+        "LName": "PHP",
+        "EName": "php",
+        "EID": "804799608940658688"
+    },
+    "julia": {
+        "LName": "Julia",
+        "EName": "julia",
+        "EID": "804799608525029426"
+    },
+    "nasm": {
+        "LName": "NASM",
+        "EName": "nasm",
+        "EID": "804799608730812477"
+    },
+    "typescript": {
+        "LName": "TypeScript",
+        "EName": "typescript",
+        "EID": "804799613214523472"
+    },
+    "clojure": {
+        "LName": "Clojure",
+        "EName": "clojure",
+        "EID": "804799607397417011"
+    },
+    "c": {
+        "LName": "C",
+        "EName": "c_",
+        "EID": "804799607376314429"
+    },
+    "vb": {
+        "LName": "Visual Basic",
+        "EName": "vb",
+        "EID": "804799613596860446"
+    },
+    "bf": {
+        "LName": "Brain F**K",
+        "EName": "bf",
+        "EID": "804799606989783083"
+    },
+    "swift": {
+        "LName": "Swift",
+        "EName": "swift",
+        "EID": "804799609682526258"
+    },
+    "coffeescript": {
+        "LName": "CoffeeScript",
+        "EName": "coffeescript",
+        "EID": "804799607699275787"
+    },
+    "csharp": {
+        "LName": "C#",
+        "EName": "cs",
+        "EID": "804799607845945374"
+    },
+    "crystal": {
+        "LName": "Crystal",
+        "EName": "crystal",
+        "EID": "804799607674241074"
+    },
+    "elixir": {
+        "LName": "Elixir",
+        "EName": "elixir",
+        "EID": "804799608974737458"
+    },
+    "fsharp": {
+        "LName": "F#",
+        "EName": "fs",
+        "EID": "804799608143216640"
+    },
+    "cpp": {
+        "LName": "C++",
+        "EName": "cpp",
+        "EID": "804799607460331572"
+    },
+    "kotlin": {
+        "LName": "Kotlin",
+        "EName": "kotlin",
+        "EID": "804799608441012275"
+    },
+    "ruby": {
+        "LName": "Ruby",
+        "EName": "ruby",
+        "EID": "804799609418678302"
+    },
+    "sql": {
+        "LName": "SQL",
+        "EName": "sql",
+        "EID": "804799609696288768"
+    },
+    "powershell": {
+        "LName": "PowerShell",
+        "EName": "powershell",
+        "EID": "804799608999247933"
+    },
+    "shell": {
+        "LName": "Shell",
+        "EName": "shell_",
+        "EID": "805118452276658216"
+    },
+    "scala": {
+        "LName": "Scala",
+        "EName": "scala",
+        "EID": "804799609620004937"
+    },
+    "python": {
+        "LName": "Python",
+        "EName": "python",
+        "EID": "804799609070813205"
+    },
+    "rust": {
+        "LName": "Rust",
+        "EName": "rust",
+        "EID": "804799609209356331"
+    },
+    "objc": {
+        "LName": "Objective-C",
+        "EName": "objectivec",
+        "EID": "804799608730419281"
+    },
+    "perl": {
+        "LName": "Perl",
+        "EName": "perl",
+        "EID": "804799608680874071"
+    },
+    "javascript": {
+        "LName": "JavaScript",
+        "EName": "javascript",
+        "EID": "804799608395137054"
+    },
+    "prolog": {
+        "LName": "Prolog",
+        "EName": "prolog",
+        "EID": "804799609368084480"
+    },
+    "raku": {
+        "LName": "Raku",
+        "EName": "raku",
+        "EID": "804799609460883476"
+    },
+    "erlang": {
+        "LName": "Erlang",
+        "EName": "erlang",
+        "EID": "804799608055398470"
+    },
+    "r": {
+        "LName": "R",
+        "EName": "r_",
+        "EID": "804799608890982462"
+    },
+    "lean": {
+        "LName": "Lean",
+        "EName": "lean",
+        "EID": "804799608379146291"
+    },
+    "pascal": {
+        "LName": "Pascal",
+        "EName": "pascal",
+        "EID": "805788844724977664"
+    },
+    "coq": {
+        "LName": "Coq",
+        "EName": "coq",
+        "EID": "805119435697422367"
+    },
+    "cobol": {
+        "LName": "Cobol",
+        "EName": "cobol",
+        "EID": "805119435702403114"
+    },
+    "haxe": {
+        "LName": "Haxe",
+        "EName": "haxe",
+        "EID": "805119436146475009"
+    },
+    "racket": {
+        "LName": "Racket",
+        "EName": "racket",
+        "EID": "804799609251692595"
+    },
+
+    "agda": {
+        "LName": "Agda",
+        "EName": "agda",
+        "EID": "805120686846115850"
+    },
+    "reason": {
+        "LName": "Reason",
+        "EName": "reason",
+        "EID": "805112214490841098"
+    },
+    "factor": {
+        "LName": "Factor",
+        "EName": "factor",
+        "EID": "805112214444965898"
+    },
+    "idris": {
+        "LName": "Idris",
+        "EName": "idris",
+        "EID": "805112214390177854"
+    },
+    "cfml": {
+        "LName": "CFML",
+        "EName": "cfml",
+        "EID": "805122411225415711"
+    }
+}
