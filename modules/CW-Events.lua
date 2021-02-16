@@ -11,7 +11,7 @@ BOT:on("messageCreate", function(Payload)
 
 			if not HasPerm then 
 				if Payload.guild.owner and NeededPerms then
-					Payload.guild.owner:send(F("I am missing the following permissions in %s:\n**%s**", Payload.channel.mentionString, table.concat(NeededPerms, "\n").."**"))
+					Payload.guild.owner:send(F("I am missing the following permissions in %s:\n**%s**", Payload.channel.mentionString, table.concat(NeededPerms, "\n")))
 				end
 				
 				return 
